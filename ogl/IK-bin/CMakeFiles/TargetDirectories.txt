@@ -1,0 +1,15 @@
+C:/Users/Nima/Downloads/ogl/IK-bin/CMakeFiles/IKTestImpl.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/CMakeFiles/INSTALL.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/CMakeFiles/GLEW_1130.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/CMakeFiles/INSTALL.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/glfw-3.1.2/CMakeFiles/uninstall.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/glfw-3.1.2/CMakeFiles/INSTALL.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/glfw-3.1.2/CMakeFiles/ALL_BUILD.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/glfw-3.1.2/src/CMakeFiles/glfw.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/glfw-3.1.2/src/CMakeFiles/INSTALL.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/INSTALL.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir
+C:/Users/Nima/Downloads/ogl/IK-bin/external/assimp-3.0.1270/code/CMakeFiles/INSTALL.dir

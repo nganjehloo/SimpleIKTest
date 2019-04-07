@@ -1,0 +1,22 @@
+Run this from the CMAKE Config tool.
+
+* Set the source code path to the path where you found this file. 
+e.g: C:/Downloads/ogl
+
+* Set the build path to the source path + IK-bin. 
+e.g: C:/Downloads/ogl/IK-bin
+
+* Add a new entry for CMAKE_INSTALL_PREFIX with the same value as above.
+e.g: CMAKE_INSTALL_PREFIX
+     String
+     C:/Downloads/ogl/IK-bin
+
+* Click on the configure button. If you still see some red fields on the top part, click configure again, until no fields are red. 
+
+* Click on Generate.
+
+* On Visual studio go to <Install_path>/IK-bin and open the IKTest.sln solution file.
+
+* Build the whole solution.
+
+* ENJOY!
