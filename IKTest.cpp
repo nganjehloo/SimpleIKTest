@@ -78,7 +78,7 @@ int main(void)
 	// Get a handle for our "MVP" uniform
 	GLuint MatrixID = glGetUniformLocation(programID, "MVP");
 
-	// Projection matrix : 45° Field of View, 4:3 ratio, display range : 0.1 unit <-> 100 units
+	// Projection matrix : 45Â° Field of View, 4:3 ratio, display range : 0.1 unit <-> 100 units
 	//glm::mat4 Projection = glm::perspective(glm::radians(45.0f), 4.0f / 3.0f, 0.1f, 220.0f);
 	//For mouse interaction, it is simpler to work with an orthographic projection
 	glm::mat4 Projection = glm::ortho(-60.0f, 60.0f, -60.0f, 60.0f, 0.0f, 120.0f); // In world coordinates
@@ -267,8 +267,7 @@ int main(void)
 
 
 
-			//*********************************************************************************************
-			//NOTE: I've removed the rotation from the model matrix.  You need to figure out where to add it
+			
 			Model = Model * trans*rot*scale;
 			positions[i] = vec3(Model[3]);
 			MVP = Projection * View * Model;
@@ -322,9 +321,6 @@ int main(void)
 		rot = glm::rotate(theta[4], rotAxis);
 
 		scale = glm::scale(glm::mat4(), glm::vec3(lengths[4], 2.0f, 1.0f));
-
-		//*********************************************************************************************
-		//NOTE: I've removed the rotation from the model matrix.  You need to figure out where to add it
 		Model = Model * trans*rot*scale;
 		vec3 endEffect = vec3(Model[3]);// positions[4] + vec3(rotate(theta[4], vec3(0, 1, 0))*vec4(1, 0, 0, 1)*lengths[3]);
 		printf("P4: %fx, %fy\n", positions[4].x, positions[4].y);
